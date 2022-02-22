@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 // import projects from '../assets/data/projects';
-import { MdSearch } from 'react-icons/md';
+// import { MdSearch } from 'react-icons/md';
 import ContactBanner from '../components/ContactBanner';
 import SectionTitle from '../components/SectionTitle';
 import ProjectItem from '../components/ProjectItem';
@@ -18,7 +18,7 @@ const ProjectsStyles = styled.div`
 `;
 
 export default function Projects() {
-  const [ProjectData, setProjectData] = useState(ProjectInfo);
+  const [ProjectData] = useState(ProjectInfo);
 
   return (
     <ProjectsStyles>
